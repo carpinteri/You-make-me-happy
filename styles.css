@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    margin: 20px auto;
+    width: 800px;
+}
+
+canvas {
+    background-color: #ddd;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+}
+
+#actions button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#actions button:hover {
+    background-color: #777;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+}
